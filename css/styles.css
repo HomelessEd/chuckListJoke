@@ -27,5 +27,45 @@ button:hover {
   background-color: #0056b3;
 }
 
+#jokeList {
+    list-style: none;
+    padding: 0;
+}
 
 
+.joke-card {
+    background: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 15px;
+    margin-bottom: 10px; 
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.1);
+    display: flex;
+    flex-direction: column; /* Stacks text and button */
+    gap: 10px;              
+    align-items: center; 
+}
+
+.Delete.Button {
+    background-color: #ff4d4d;
+    color: white;
+    border: none;
+    padding: 8px;
+    border-radius: 4px;
+    cursor: pointer;
+    width: fit-content;
+}
+
+.clearAll {
+  background-color: red;
+    color: bold black;
+    border: 2px solid black;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.clearAll:hover {
+  background-color: black;
+    color: red;
+}
